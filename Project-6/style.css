@@ -1,0 +1,271 @@
+.navbar{
+    padding: 1.75rem 3rem;
+    }
+
+.nav-link {
+        display: block;
+        padding: .5rem 4rem;
+        font-size: 1.07rem;
+}
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+}
+
+body
+{
+    font-weight: 500;
+}
+@media (min-width: 992px){
+    .ml-lg-4, .mx-lg-4 {
+    margin-left: 5rem!important;
+}
+}
+#bluebg{
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+    background-color: #6900c7;
+    height: 120vh;
+    clip-path: polygon(0 0, 100% 0%, 100% 86%, 0% 100%);
+    padding: 8rem 0;
+   
+}
+.btn{
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: .15em;
+    padding: .8rem .65rem;
+}
+.badge-info {
+    color: #6900c7;
+    background-color: #d4c2ef;
+}
+
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 48px;
+    padding-left: 48px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-lg-6
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+.badge-pill{
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+}
+
+.badge{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    font-weight: 500;
+    vertical-align: middle;
+}
+h1{
+
+    color: #fff;
+    margin-top: 0.2em;
+    margin-bottom: .2em;
+    letter-spacing: 1px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: hsla(0,0%,100%,.5)!important;
+    letter-spacing: .5px;
+}
+.rounded-lg {
+    border-radius: .6rem!important;
+}
+.card-header {
+    color: #0061f2;
+    font-weight: 650;
+}
+.text-gray-600 {
+    color: #687281!important;
+}
+.small, small {
+    font-size: 100%;
+}
+.text-right {
+    text-align: right!important;
+    font-weight: 700;
+    letter-spacing: .18em;
+    color: #cccdcf!important;
+}
+
+
+  svg {
+     width: 100%;
+     fill: #a2acba;
+     padding-right: 1rem;
+     padding-left: 1rem;
+ }
+ .brands{
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ #greybg{
+    clip-path: polygon(0 10.5%, 100% 0, 100% 89.5%, 0 100%);
+    background-color: #eff3f9;
+    height: 160vh;
+    padding-top: 15rem !important;
+ }
+ .text-secondary {
+    color: #6900c7!important;
+}
+.badge-secondary-soft {
+    
+    background-color: #d4c2ef;
+}
+h2{
+    color: #323f52;
+    font-size: 1.4rem;
+    letter-spacing: .5px;
+}
+.lead {
+    font-size: 1.1rem;
+    font-weight: 450;
+    letter-spacing: .4px;
+    color: #687281 !important;
+}
+.icon-stack-xl {
+    height: 5rem;
+    width: 5rem;
+    font-size: 1.75rem;
+}
+.text-secondary {
+    color: #6900c7!important;
+}
+.bg-secondary-soft {
+    background-color: #d4c2ef!important;
+}
+.icon-stack {
+    
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    border-radius: 100%;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+    position: relative;
+    width: 100%;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    
+}
+.marketing{
+    margin-top: -125vh;
+}
+.card{
+    box-shadow: 0 0.25rem 1.75rem 0 rgba(31,45,65,.15);
+    border-radius: 0.5rem;
+}
+.logo1{
+    fill: none !important;
+    stroke: currentColor;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+
+}
+i-feather svg{
+    fill: none;
+}
+
+.bg-success-soft {
+    background-color: #bfe5dc!important;
+}
+.text-success {
+    color: #00ac69!important;
+}
+
+.bg-primary-soft {
+    background-color: #bfd6f8!important;
+}
+
+.text-primary {
+    color: #0061f2!important;
+}
+.bg-warning-soft {
+    background-color: #f0e3c7!important;
+}
+h5{
+    color: #323f52;
+    letter-spacing: 0.2px;
+    
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #687281 !important;
+}
+.btn-transparent-dark.focus, .btn-transparent-dark:focus, .btn-transparent-dark:hover {
+    
+    background-color: rgba(31,45,65,.1);
+    border-color: transparent;
+}
+.btn-transparent-dark {
+    
+    background-color: transparent;
+    border-color: transparent;
+    color: rgba(31,45,65,.5)!important;
+}
+.btn {
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: .15em;
+    padding: .8rem 1.5rem;
+}
+.align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    margin-bottom: 5rem;
+    margin-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.footer{
+    padding-top: 6rem;
+}
+.footer .row{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.icon-list-social  {
+    font-size: 1.25rem;
+    margin-right: .5rem;
+    padding-left: 0rem !important;
+    height: 1em;
+}
+a, .foot{
+   
+    color: #a2acba ;
+}
+ng-fa-icon svg{
+    width: 0.875em;
+    height: 1em;
+    fill: #a2acba;
+}
+.small, small {
+    font-size: 100%;
+    color: #a2acba;
+}
